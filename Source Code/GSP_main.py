@@ -41,8 +41,8 @@ def country_seq(filename):
 
 def main():
     start_time = time.time()
-    os.chdir("C:\\Users\\Jansen Domoguen\\Desktop\\database\\spotify\\For_project")
-    path = r'C:\Users\Jansen Domoguen\Desktop\database\spotify\For_project'
+    os.chdir("file.directory")
+    path = r'file.directory'
     filenames = glob.glob(path + "/*.csv")
 
     p = Pool()
